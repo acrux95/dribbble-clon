@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+:root {
+    --white-color: #ffffff;
+    --pink-color: #ea4c89;
+    --gray-color: #6e6d7a;
+    --ligth-gray-color: #d8d7db;
+}
+header {
+    margin: 20px 28px 0;
+    flex: 0 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    box-sizing: border-box;
+    position: relative;
+    border-bottom: 1px solid var(--ligth-gray-color);
+}
+
+body {
+    font-family: 'Haas Grot Text R Web', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.header-left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-grow: 9999;
+    margin-bottom: 30px;
+}
+
+.travel-header-brand {
+    display: flex;
+    align-items: center;
+    margin-right: 12px;
+    vertical-align: baseline;
+}
+
+.travel-header-brand a {
+    display: inline-block;
+    font-family: 'Sacramento';
+    font-size: 32px;
+    font-weight: 400;
+    color: #0d0c22;
+    text-decoration: none;
+}
+
+.travel-header-brand a:hover{
+    color: #2f2e35;
+}
+
+.travel-title-container {
+    padding: 0 20px;
+    margin-right: 0;
+    height: 30;
+    color: var(--gray-color);
+    display: flex;
+    align-items: center;
+    font-family: 'Haas Grot Text R Web', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+
+}
+
+.travel-title-container h1 {
+    padding: 0;
+    
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 0;
+    color: #0d0c22;
+}
+
+.travel-title-container h1:hover {
+    color: rgb(231, 226, 226);
+}
+
+.travel-title-container a {
+    padding: 0;
+    color: var(--pink-color);
+    outline: none;
+    text-decoration: none;
+    vertical-align: top;
+
+}
+
+.header-rigth {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+    padding: 0;
+    overflow-x: hidden;
+    
+}
+
+.header-rigth img {
+    display: inline-block;
+    height: 65px;
+    cursor: pointer;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.header-rigth img:hover {
+    border: 2px solid var(--pink-color);
+    padding: 1px;
+    
+}
+main img {
+    padding: 20px 20px;
+    text-align: center;
+    display: block;
+    max-width: 90%;
+    margin: 0 auto;
+    border-radius: 25px;
+    transition: transform .2s;
+    cursor: -webkit-zoom-in;
+
+}
+
+main img:zoom {
+    transform: scale(2);
+}
+
+footer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-grow: 9999;
+}
+
+footer img {
+    width: 130px;
+}
+
+.advertising {
+    max-width: 350px;
+    margin: 0;
+    font-size: 13px;
+    line-height: 1.5;
+    padding-left: 14px;
+    position: relative;
+    min-height: 100px;
+}
+
+.advertising-text a {
+    display: block;
+    margin-top: px;
+    font-size: 12px;
+    letter-spacing: 0.03em;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #b9b9c5;
+    outline: none;
+    text-decoration: none;
+}
+
+.advertising-disclaimer a {
+    display: block;
+    margin-top: 4px;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #dbdbde;
+    outline: none;
+    text-decoration: none
+}
